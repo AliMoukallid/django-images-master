@@ -158,8 +158,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 #MEDIA_URL = '/media/'
 #MEDIA_ROOT = BASE_DIR / 'mediafiles'
-DEFAULT_FILE_STORAGE = 'core.azure_storage.AzureMediaStorage'
-STATICFILES_STORAGE = 'core.azure_storage.AzureStaticStorage'
+DEFAULT_FILE_STORAGE = 'azure_storage.AzureMediaStorage'
+STATICFILES_STORAGE = 'azure_storage.AzureStaticStorage'
 
 AZURE_ACCOUNT_NAME = os.getenv('AZURE_ACCOUNT_NAME')
 AZURE_ACCOUNT_KEY = os.getenv('AZURE_ACCOUNT_KEY')
